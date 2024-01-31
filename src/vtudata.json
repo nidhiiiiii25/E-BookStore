@@ -1,0 +1,162 @@
+ [
+      {
+        "name": "Introduction to Computer Science",
+        "price": 35.99,
+        "description": "A comprehensive guide to computer science concepts and programming.",
+        "image": "cs_intro.jpg",
+        "subject": "Computer Science",
+        "semester": 1
+      },
+      {
+        "name": "Electrical Circuits and Networks",
+        "price": 28.50,
+        "description": "Fundamentals of electrical circuits and network analysis.",
+        "image": "electrical_circuits.jpg",
+        "subject": "Electrical Engineering",
+        "semester": 2
+      },
+      {
+        "name": "Mechanics of Materials",
+        "price": 42.75,
+        "description": "Understanding the behavior of materials under different loads and conditions.",
+        "image": "mechanics_of_materials.jpg",
+        "subject": "Mechanical Engineering",
+        "semester": 3
+      },
+      {
+        "name": "Programming in Java",
+        "price": 39.99,
+        "description": "Java programming language basics and advanced concepts.",
+        "image": "java_programming.jpg",
+        "subject": "Computer Science",
+        "semester": 4
+      },
+      {
+        "name": "Digital Signal Processing",
+        "price": 45.25,
+        "description": "Signal processing techniques for digital systems and communications.",
+        "image": "digital_signal_processing.jpg",
+        "subject": "Electronics and Communication",
+        "semester": 5
+      },
+      {
+        "name": "Advanced Thermodynamics",
+        "price": 55.50,
+        "description": "Advanced concepts in thermodynamics and heat transfer.",
+        "image": "advanced_thermodynamics.jpg",
+        "subject": "Mechanical Engineering",
+        "semester": 6
+      },
+      {
+        "name": "Database Management Systems",
+        "price": 36.75,
+        "description": "Fundamentals of database systems and SQL programming.",
+        "image": "database_management.jpg",
+        "subject": "Computer Science",
+        "semester": 7
+      },
+      {
+        "name": "Communication Networks",
+        "price": 48.99,
+        "description": "Principles of communication networks and protocols.",
+        "image": "communication_networks.jpg",
+        "subject": "Electronics and Communication",
+        "semester": 8
+      },
+      {
+        "name": "Machine Learning",
+        "price": 52.25,
+        "description": "Introduction to machine learning algorithms and applications.",
+        "image": "machine_learning.jpg",
+        "subject": "Computer Science",
+        "semester": 4
+      },
+      {
+        "name": "Control Systems",
+        "price": 40.75,
+        "description": "Analysis and design of control systems in engineering.",
+        "image": "control_systems.jpg",
+        "subject": "Electrical Engineering",
+        "semester": 5
+      },
+      {
+        "name": "Robotics Engineering",
+        "price": 47.50,
+        "description": "Fundamentals and applications of robotics in engineering.",
+        "image": "robotics_engineering.jpg",
+        "subject": "Mechanical Engineering",
+        "semester": 6
+      },
+      {
+        "name": "Software Engineering",
+        "price": 38.25,
+        "description": "Principles and practices of software development and project management.",
+        "image": "software_engineering.jpg",
+        "subject": "Computer Science",
+        "semester": 7
+      },
+      {
+        "name": "VLSI Design",
+        "price": 46.99,
+        "description": "Design and implementation of Very Large Scale Integration (VLSI) circuits.",
+        "image": "vlsi_design.jpg",
+        "subject": "Electronics and Communication",
+        "semester": 8
+      },
+      {
+        "name": "Renewable Energy Systems",
+        "price": 50.25,
+        "description": "Study of renewable energy sources and systems.",
+        "image": "renewable_energy.jpg",
+        "subject": "Mechanical Engineering",
+        "semester": 5
+      },
+      {
+        "name": "Computer Networks",
+        "price": 42.75,
+        "description": "Principles and protocols of computer networks and internet technologies.",
+        "image": "computer_networks.jpg",
+        "subject": "Computer Science",
+        "semester": 6
+      },
+      {
+        "name": "Embedded Systems",
+        "price": 44.99,
+        "description": "Design and development of embedded systems and applications.",
+        "image": "embedded_systems.jpg",
+        "subject": "Electronics and Communication",
+        "semester": 7
+      },
+      {
+        "name": "Heat Transfer",
+        "price": 37.50,
+        "description": "Principles of heat transfer in engineering applications.",
+        "image": "heat_transfer.jpg",
+        "subject": "Mechanical Engineering",
+        "semester": 8
+      },
+      {
+        "name": "Artificial Intelligence",
+        "price": 49.75,
+        "description": "Fundamentals and applications of artificial intelligence.",
+        "image": "artificial_intelligence.jpg",
+        "subject": "Computer Science",
+        "semester": 7
+      },
+      {
+        "name": "Power Electronics",
+        "price": 43.25,
+        "description": "Principles and applications of power electronics in electrical systems.",
+        "image": "power_electronics.jpg",
+        "subject": "Electrical Engineering",
+        "semester": 8
+      },
+      {
+        "name": "Engineering Ethics",
+        "price": 25.99,
+        "description": "Ethical considerations in engineering practices and decision-making.",
+        "image": "engineering_ethics.jpg",
+        "subject": "General",
+        "semester": 5
+      }
+    ]

@@ -11,6 +11,32 @@
   padding: 0;
 }
 
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+.bookContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.book button {
+  font: inherit;
+  cursor: pointer;
+  background-color: #e74c3c;
+  border: 1px solid #e74c3c;
+  color: white;
+  padding: 0.25rem 2rem;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-left: 5px;
+
+}
+
 @keyframes book-appear {
   from {
     opacity: 0;
@@ -22,3 +48,4 @@
     transform: translateY(0);
   }
 }
+

@@ -4,8 +4,7 @@ import Availiblebook from "./Availiblebook";
 const book = (props) => {
   return (
     <Fragment>
-      <bookSummary />
-      <Availiblebook />
+      <Availiblebook/>
     </Fragment>
   );
 };
