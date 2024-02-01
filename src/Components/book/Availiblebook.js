@@ -27,6 +27,8 @@ const Availiblebook = (props) => {
           {dataused.map((book) => {
             return (
               <MealItem
+              subject = {book.subject}
+              semester = {book.semester}
                 image = {book.image}
                 name={book.name}
                 price={book.price}

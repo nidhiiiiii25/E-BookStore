@@ -1,7 +1,7 @@
 import classes from "./bookItem.module.css";
 import { useContext } from "react";
 import CartContext from "../../Store/Cart-context";
-import MealItemForm from "./bookItemForm";
+import BookItemForm from "./bookItemForm";
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
@@ -28,7 +28,7 @@ const MealItem = (props) => {
   return (
     <li className={classes.meal}>
       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-        <Card sx={{ maxWidth: 250, margin: '10px', height: '400px',  }}>
+        <Card sx={{ maxWidth: 250, margin: '10px', height: '500px',  }}>
           <CardMedia
             sx={{ height: 140 }}
             image={props.image}
@@ -38,6 +38,12 @@ const MealItem = (props) => {
             <Typography gutterBottom variant="h5" component="div">
               {props.name}
             </Typography>
+            {props.subject === ""? null : <Typography gutterBottom variant="body1" component="div">
+             subject : {props.subject}
+            </Typography>}
+            {props.semester === ""? null : <Typography gutterBottom variant="body1" component="div">
+             semester : {props.semester}
+            </Typography>}
             <Typography variant="body2" color="text.secondary">
               {props.description}
             </Typography>
@@ -46,7 +52,7 @@ const MealItem = (props) => {
             </Typography>
           </CardContent>
           <CardActions style={{ marginTop: 'auto', justifyContent: 'center' }}>
-            <MealItemForm id={props.id} addItem={addItemToCart} />
+            <BookItemForm id={props.id} addItem={addItemToCart} />
           </CardActions>
         </Card>
       </div>
